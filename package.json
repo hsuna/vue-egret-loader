@@ -19,10 +19,11 @@
     "hash-sum": "2.0.0",
     "loader-utils": "1.2.3",
     "lru-cache": "5.1.1",
+    "vue-egret": "git+http://git.3k.com/rdc/web/Tech/vue-egret.git#1.3.0",
     "vue-template-compiler": "2.6.10"
   },
   "repository": {
     "type": "git",
-    "url": "http://git.3k.com/web/Tech/vue-egret-loader.git"
+    "url": "http://git.3k.com/rdc/web/Tech/vue-egret-loader.git"
   }
 }
