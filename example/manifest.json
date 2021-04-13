@@ -1,0 +1,10 @@
+{
+	"initial": [
+		"lib/egret.min.js",
+		"lib/egret.web.min.js",
+		"lib/tween.min.js"
+	],
+	"game": [
+		"dist/bundle.js"
+	]
+}
