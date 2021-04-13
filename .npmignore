@@ -1,1 +1,7 @@
+example
+*.yml
 .babelrc
+yarn.lock
+tsconfig.json
+.github
+.vscode
