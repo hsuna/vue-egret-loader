@@ -47,14 +47,14 @@ export default {
 `vue-loader`不是一个简单的源转换加载器。它是借助的VueEgret的预编译方法(`vue-egret/libs/prerender`)，将`template`节点解析成`render`函数再导出：
 
 ```javascript
-export * from 'source.vue?vue&type=script'
-// import the <template> block
-import __vue_script__ from 'source.vue?vue&type=template'
 // import the <script> block
-import __vue_prerender__ from 'source.vue?vue&type=script'
+import __vue_script__ from 'source.vue?vue&type=script'
+// import the <template> block
+import __vue_prerender__ from 'source.vue?vue&type=template'
 
+export * from 'source.vue?vue&type=script'
 export default {
-    render: __vue_prerender__,
-    ...__vue_script__,
+  ...__vue_script__,
+  render: __vue_prerender__,
 }
 ```
